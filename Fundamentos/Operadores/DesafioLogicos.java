@@ -22,8 +22,5 @@ public class DesafioLogicos {
         System.out.println("Mais Saudável sorvete\"?" + maisSaudavel);
 
 
-
-
-
     }
 }
