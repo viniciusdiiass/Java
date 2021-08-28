@@ -1,6 +1,6 @@
 package Controle;
 
-public interface For2{
+public class For2{
     public static void main(String[] args) {
 
         //criar laço for decrescente -2.
