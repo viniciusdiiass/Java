@@ -6,9 +6,9 @@ public class Data {
     int ano;
 
     Data(int diaInicial, int mesInicial, int anoInicial){
-        dia = diaInicial;
-        mes = mesInicial;
-        ano = anoInicial;
+        this.dia = diaInicial;
+        this.mes = mesInicial;
+        this.ano = anoInicial;
     }
 
     Data(){
@@ -16,6 +16,8 @@ public class Data {
     mes = 1;
     ano = 1970;
     }
+
     String obterDataFormatada(){
         return String.format("%d/%d/%d",dia,mes,ano); }
 }
+
