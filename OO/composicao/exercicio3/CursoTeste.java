@@ -27,7 +27,7 @@ public class CursoTeste {
 
        System.out.println(aluno1.cursos.get(0).alunos);
 
-        Curso cursoEncontrado = aluno1.obterCursoPorNome("java completo");
+        Curso cursoEncontrado = aluno1.obterCursoPorNome();
 
         if (cursoEncontrado != null) {
             System.out.println(cursoEncontrado.nome);
